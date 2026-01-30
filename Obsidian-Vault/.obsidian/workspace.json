@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "ac792622d64c724c",
+    "id": "5fa706c80909fd05",
     "type": "split",
     "children": [
       {
-        "id": "038a40b525ba7c34",
+        "id": "3a78699c5069f148",
         "type": "tabs",
         "children": [
           {
-            "id": "33511b2e29ebdd7f",
+            "id": "e928bd772d98fbca",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "4c4822af8e6d1cfd",
+        "id": "b33101b1b544951f",
         "type": "tabs",
         "children": [
           {
-            "id": "f498c6a80d4c9625",
+            "id": "899d66e0bbf62f6d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -43,15 +43,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f3dadcdd46a8568e",
+    "id": "03429bea884907ba",
     "type": "split",
     "children": [
       {
-        "id": "bbf3fffa4da20fc4",
+        "id": "0ed40a0c592b4f85",
         "type": "tabs",
         "children": [
           {
-            "id": "5b4de9a8c67051bc",
+            "id": "4096dcf7b93fb949",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "4cc5584edc286b49",
+            "id": "959a14e51142eb81",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -81,7 +81,7 @@
             }
           },
           {
-            "id": "8ea267ab9b895c75",
+            "id": "b316d9bc27c345f7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -90,23 +90,22 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "887987d9f4cfd8af",
+    "id": "3d2d43b21cd2d552",
     "type": "split",
     "children": [
       {
-        "id": "d84a65f97413f778",
+        "id": "c2b2c17670d948a2",
         "type": "tabs",
         "children": [
           {
-            "id": "04ab6a5516693b9d",
+            "id": "ca29dc7dcc4578c7",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -125,7 +124,7 @@
             }
           },
           {
-            "id": "80c4697f8a5c74f6",
+            "id": "26299f2363f07c5f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -139,7 +138,7 @@
             }
           },
           {
-            "id": "aea2be079c7319a3",
+            "id": "996645c1544d2eda",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -154,7 +153,7 @@
             }
           },
           {
-            "id": "c73768824657f061",
+            "id": "1c8267223d019ac6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -168,7 +167,7 @@
             }
           },
           {
-            "id": "47285d80fccfb82c",
+            "id": "64a3bdf97ef0d8e6",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -183,7 +182,7 @@
             }
           },
           {
-            "id": "28466b141c91ddd7",
+            "id": "1f7e65fc178c750d",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -211,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4cc5584edc286b49",
+  "active": "4096dcf7b93fb949",
   "lastOpenFiles": [
     "Welcome.md"
   ]
