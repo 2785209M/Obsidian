@@ -1,0 +1,4 @@
+# Ignore Obsidian workspace and cache files
+.obsidian/workspace.json
+.obsidian/cache
+.trash
