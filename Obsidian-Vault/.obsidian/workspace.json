@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e928bd772d98fbca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
             "id": "4132d8ea27e61661",
             "type": "leaf",
             "state": {
@@ -41,32 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control-3/Lecture-2.md",
+                "file": "Control-3/Lecture-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture-2"
+              "title": "Lecture-1"
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "b33101b1b544951f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "899d66e0bbf62f6d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control-3/Lecture-2.md",
+                "file": "Control-3/Lecture-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture-2"
+              "title": "Backlinks for Lecture-1"
             }
           },
           {
@@ -158,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Control-3/Lecture-2.md",
+                "file": "Control-3/Lecture-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture-2"
+              "title": "Outgoing links from Lecture-1"
             }
           },
           {
@@ -201,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Control-3/Lecture-2.md",
+                "file": "Control-3/Lecture-1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture-2"
+              "title": "Outline of Lecture-1"
             }
           },
           {
@@ -225,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,11 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4096dcf7b93fb949",
+  "active": "edd58fc384b27ad0",
   "lastOpenFiles": [
-    "Control-3/Lecture-1.md",
-    "Control-3/Lecture-2.md",
     "Welcome.md",
+    "Control-3/Lecture-1.md",
+    "create a link.md",
+    "Control-3/Lecture-2.md",
     "Control-3"
   ]
 }
