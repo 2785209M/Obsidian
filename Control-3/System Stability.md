@@ -1,0 +1,1 @@
+The stability of a system relies on
