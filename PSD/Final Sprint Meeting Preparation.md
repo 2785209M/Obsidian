@@ -1,0 +1,4 @@
+- Hand over product with full documentation
+- Complete all licencing and agreements
+- Ensure customer is happy with the product
+- Prepare Demonstrations beforehand

@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "5fa706c80909fd05",
+    "type": "split",
+    "children": [
+      {
+        "id": "e661f4e129948e1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c26d2904c6505abb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "03429bea884907ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ed40a0c592b4f85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4096dcf7b93fb949",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "959a14e51142eb81",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b316d9bc27c345f7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3d2d43b21cd2d552",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2b2c17670d948a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca29dc7dcc4578c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Control-3/Laplace Transforms.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Laplace Transforms"
+            }
+          },
+          {
+            "id": "26299f2363f07c5f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Control-3/Laplace Transforms.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Laplace Transforms"
+            }
+          },
+          {
+            "id": "996645c1544d2eda",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1c8267223d019ac6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "64a3bdf97ef0d8e6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c26d2904c6505abb",
+  "lastOpenFiles": [
+    "General/Github.md",
+    "General",
+    "Control-3/Routh-Hurwitz Stability Criterion.md",
+    "Control-3/Laplace Transforms.md",
+    "Control-3/Block Diagrams.md",
+    "Control-3/Images/Pasted image 20260205181402.png",
+    "PSD/Final Sprint Meeting Preparation.md",
+    "Control-3/Images/Pasted image 20260205181322.png",
+    "Control-3/Images/Pasted image 20260201144439.png",
+    "Control-3/Images/Pasted image 20260205174708.png",
+    "Control-3/Images",
+    "Control-3/Images/Pasted image 20260205173334.png",
+    "Control-3/Images/Pasted image 20260205174900.png",
+    "Pasted image 20260205174659.png",
+    "Control-3/Images/Pasted image 20260205174844.png",
+    "Control-3/Images/Pasted image 20260205172052.png",
+    "Control-3/Images/Pasted image 20260204183801.png",
+    "PSD",
+    "Operating-Systems/Labs/os_lab_4 1.pdf",
+    "Operating-Systems/Labs/os_lab_4.pdf",
+    "Operating-Systems/Labs",
+    "Control-3/Labs/lab_mem/lab_mem/my_memory_allocator.h",
+    "Control-3/Labs/lab_mem/lab_mem/binarytrees.c",
+    "Control-3/Labs/lab_mem/lab_mem/sort.c",
+    "Control-3/Labs/lab_mem/lab_mem/lines15.txt",
+    "Welcome.md",
+    "create a link.md"
+  ]
+}
