@@ -11,10 +11,14 @@
             "id": "c26d2904c6505abb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Control-3/System Stability.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "System Stability"
             }
           }
         ]
@@ -152,16 +156,27 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Control-3/System Stability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of System Stability"
+            }
+          },
+          {
+            "id": "4b468a6f17bb8fc6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -175,11 +190,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "c26d2904c6505abb",
   "lastOpenFiles": [
+    "Control-3/System Stability.md",
+    "Untitled",
     "General/Github.md",
     "General",
     "Control-3/Routh-Hurwitz Stability Criterion.md",
@@ -204,7 +222,6 @@
     "Control-3/Labs/lab_mem/lab_mem/my_memory_allocator.h",
     "Control-3/Labs/lab_mem/lab_mem/binarytrees.c",
     "Control-3/Labs/lab_mem/lab_mem/sort.c",
-    "Control-3/Labs/lab_mem/lab_mem/lines15.txt",
     "Welcome.md",
     "create a link.md"
   ]
