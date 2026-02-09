@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control-3/System Stability.md",
+                "file": "Control-3/Block Diagrams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "System Stability"
+              "title": "Block Diagrams"
             }
           }
         ]
@@ -196,32 +196,33 @@
   },
   "active": "c26d2904c6505abb",
   "lastOpenFiles": [
-    "Control-3/System Stability.md",
+    "Operating-Systems/Untitled.md",
+    "Operating-Systems/attachments/Pasted image 20260209165953.png",
+    "Operating-Systems/attachments",
+    "Control-3/Block Diagrams.md",
     "Untitled",
-    "General/Github.md",
-    "General",
+    "Control-3/attachments/Pasted image 20260209165755.png",
+    "Control-3/Pasted image 20260209165710.png",
+    "Control-3/System Stability.md",
     "Control-3/Routh-Hurwitz Stability Criterion.md",
     "Control-3/Laplace Transforms.md",
-    "Control-3/Block Diagrams.md",
-    "Control-3/Images/Pasted image 20260205181402.png",
+    "General/Github.md",
+    "General",
+    "Control-3/attachments/Pasted image 20260205181402.png",
     "PSD/Final Sprint Meeting Preparation.md",
-    "Control-3/Images/Pasted image 20260205181322.png",
-    "Control-3/Images/Pasted image 20260201144439.png",
-    "Control-3/Images/Pasted image 20260205174708.png",
-    "Control-3/Images",
-    "Control-3/Images/Pasted image 20260205173334.png",
-    "Control-3/Images/Pasted image 20260205174900.png",
+    "Control-3/attachments/Pasted image 20260205181322.png",
+    "Control-3/attachments/Pasted image 20260201144439.png",
+    "Control-3/attachments/Pasted image 20260205174708.png",
+    "Control-3/attachments",
+    "Control-3/attachments/Pasted image 20260205173334.png",
+    "Control-3/attachments/Pasted image 20260205174900.png",
     "Pasted image 20260205174659.png",
-    "Control-3/Images/Pasted image 20260205174844.png",
-    "Control-3/Images/Pasted image 20260205172052.png",
-    "Control-3/Images/Pasted image 20260204183801.png",
     "PSD",
     "Operating-Systems/Labs/os_lab_4 1.pdf",
     "Operating-Systems/Labs/os_lab_4.pdf",
     "Operating-Systems/Labs",
     "Control-3/Labs/lab_mem/lab_mem/my_memory_allocator.h",
     "Control-3/Labs/lab_mem/lab_mem/binarytrees.c",
-    "Control-3/Labs/lab_mem/lab_mem/sort.c",
     "Welcome.md",
     "create a link.md"
   ]
