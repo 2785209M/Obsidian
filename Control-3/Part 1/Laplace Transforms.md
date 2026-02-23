@@ -40,13 +40,15 @@ $\ddot{x}(t) + 2\zeta\omega\dot{x} + \omega_{n}^{2}x(t) = Ku(t)$ -> Laplace Tran
 -> $X(s)(s^2 + 2\zeta\omega_ns + \omega_{n}^{2} = KU(s)$ 
 -> $G(s) = \frac{X(s)}{U(s)} = \frac{K}{s^2 + 2\zeta\omega_ns + \omega_n^2}$ = The transfer function
 
+Solving the numerator of the transfer function gives you the zeros of the equation. These are simply the values that, when plugged into the transfer function, it will equal zero.
+
 #### Characteristic Equation
 
 The characteristic equation is the denominator of the transfer function. Solving the characteristic equation tells you if a system is stable or not. 
 
 ![[Pasted image 20260205172052.png]]
 
-
+Solving the characteristic equation gives you the poles of the transfer function. Poles are the roots of the characteristic equation. The points at which the position of the transform in the frequency domain stretches to infinity.
 #### Step Input
 
 The step input is the Laplace transform of the unit step. This is usually $\frac{1}{s}$. However is the unit step is 5, the step input would be $\frac{5}{s}$, etc.

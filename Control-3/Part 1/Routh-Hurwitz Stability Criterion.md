@@ -8,6 +8,7 @@ the columns should be filled with the coefficients of s from the equation that h
 $b_i$ and $c_i$ are calculated using coefficients.
 
 ![[Pasted image 20260205181322.png]]
+In the calculation above, you always multiply the matrix of the s3 and s2 with -1 over the first value of s2. To calculate c1 you move down by one row and repeat the process of b1
 
 ![[Pasted image 20260205181402.png]]
 
