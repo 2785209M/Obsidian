@@ -93,16 +93,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doulos Digital Design Course/Untitled.md",
+                "file": "Doulos Digital Design Course/Synchronous Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Synchronous Design"
+            }
+          },
+          {
+            "id": "231a4ff7b2eeda0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Doulos Digital Design Course/Digital Design Technologies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digital Design Technologies"
+            }
+          },
+          {
+            "id": "215d5172a30ffb92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Control-3/Part 1/Block Diagrams.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Block Diagrams"
+            }
+          },
+          {
+            "id": "f52ce02f58e50e7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Control-3/Part 1/Proportional Control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proportional Control"
+            }
+          },
+          {
+            "id": "0ac78f39cf2538a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Control-3/Part 1/Defining the real world.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Defining the real world"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -121,7 +177,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -275,21 +331,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50454c1db2e77bc1",
+  "active": "0ac78f39cf2538a0",
   "lastOpenFiles": [
+    "Control-3/Part 1/Proportional Control.md",
+    "Control-3/Part 1/Defining the real world.md",
+    "Control-3/Part 1/Block Diagrams.md",
+    "Control-3/Part 1/Laplace Transforms.md",
+    "Control-3/Part 1/Routh-Hurwitz Stability Criterion.md",
+    "Control-3/Part 1/Stability in Control Systems.md",
+    "Control-3/Part 2/Root Locus Diagrams.md",
+    "Doulos Digital Design Course/Design Practices.md",
+    "Doulos Digital Design Course/Digital Design Technologies.md",
+    "Untitled",
+    "Doulos Digital Design Course/attachments/image-5.png",
+    "Doulos Digital Design Course/attachments/image-4.png",
+    "Doulos Digital Design Course/Synchronous Design.md",
+    "Doulos Digital Design Course/attachments/image-3.png",
+    "Doulos Digital Design Course/attachments/image-2.png",
+    "Doulos Digital Design Course/attachments/image-1.png",
     "Doulos Digital Design Course/Logic Gates.md",
-    "Doulos Digital Design Course/Untitled.md",
     "Doulos Digital Design Course/attachments/image.png",
     "Doulos Digital Design Course/attachments/Pasted image 20260223135538.png",
     "Doulos Digital Design Course/attachments",
     "Doulos Digital Design Course",
-    "Control-3/Part 1/Routh-Hurwitz Stability Criterion.md",
-    "Control-3/Part 1/Root Locus Diagrams.md",
-    "Control-3/Part 1/Block Diagrams.md",
-    "Control-3/Part 1/Laplace Transforms.md",
-    "Control-3/Part 1/Stability in Control Systems.md",
     "Control-3/Part 2",
-    "Control-3/Part 1/Untitled.md",
     "Control-3/Part 1",
     "Networked-Systems/To-Do.md",
     "Networked-Systems/Data Transfer Protocols.md",
@@ -302,14 +367,8 @@
     "Control-3/Pasted image 20260209165710.png",
     "General/Github.md",
     "General",
-    "Control-3/attachments/Pasted image 20260205181402.png",
-    "Control-3/attachments/Pasted image 20260205181322.png",
-    "Control-3/attachments/Pasted image 20260201144439.png",
-    "Control-3/attachments/Pasted image 20260205174708.png",
     "Control-3/attachments",
-    "Control-3/attachments/Pasted image 20260205173334.png",
     "PSD",
-    "Operating-Systems/Labs/os_lab_4 1.pdf",
     "Welcome.md",
     "create a link.md"
   ]
