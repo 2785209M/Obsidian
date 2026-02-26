@@ -5,3 +5,4 @@ The point where the calibration equation equals zero is the start of the root lo
 
 The relative degree of the root locus gives you the number of asymptotes
 
+If the root locus is entirely in one plane then the system is stable. If the root locus crosses the y axis the system can be unstable.
