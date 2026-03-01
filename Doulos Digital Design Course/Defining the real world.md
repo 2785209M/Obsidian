@@ -1,4 +1,4 @@
-The safe area in the real world lies in synchronous design. We will now explore the dangerous world of asynchronous design.
+The safe area in the real world lies in synchronous design.
 
 Metastability: when the flip flop is set to a value that is neither 1 nor 0. The flip flop will eventually converge to one or the other.
 
