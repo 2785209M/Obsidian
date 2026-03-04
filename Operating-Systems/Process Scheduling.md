@@ -45,7 +45,7 @@ Linux can assign values to tasks from 0 to 139.
 0-100 always have priority and use FCFS or RR scheduling
 In Linux all scheduling is preemptive and all threads can be interrupted
 
-The Linux kernel schedules **THREADS** not processes.
+The Linux kernel schedules **THREADS** not processes. (But they're treated as the same thing?)
 
 ![[image-4.png|647]]
 
