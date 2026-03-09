@@ -32,24 +32,3 @@ Pointers are useful because they give you direct access to your computers memory
 
 Pointers allow you to utilize the stack frame, call **malloc()**, grow the heap using **brk()/sbrk()**, and map new regions into memory using **mmap()**.
 
-## Paging
-Linux uses a scheme called **paging** to manage resource allocation and memory management. Physical memory is divided into fixed size blocks called **Frames** and virtual memory is divided into fix sized blocks called **Pages**. The frames and pages in a system must be the same size (Usually 4KB) so the pages can be mapped to the frames. use the command **getconf PAGESIZE** in the terminal to view the page size on your own Linux machine.
-
-### Fragmentation
-#### External Fragmentation
-External fragmentation is when memory is split up at the page level. It means there are gaps of unallocated pages between sections of filled pages, which may be too small to allocate to a process, causing wasted space.
-![[image-10.png|308]]
-#### Internal Fragmentation
-Internal fragmentation is when the memory space inside of a page is divided poorly. There may be gaps between utilized memory that get wasted because they are too small to run any processes.
-![[image-11.png|215]]
-
-![[image-13.png|608]]
-### Page Table
-Page tables avoid **External Fragmentation** as they allocate physical memory to processes whenever and wherever it is available. The physical memory does not need to be contiguous as the page table will map the physical memory frames to contiguous pages (at least they seem contiguous to the process).
-
-Pages are given page numbers, which allow them to be mapped onto a page table, and a page offset, which when combined with their page number defines their space in physical memory.
-![[image-12.png|416]]
-
-The page table is really a piece of software that has its own memory space in RAM, but it's the MMU that actually reads the table to perform the translation between physical and virtual memory.
-
-Generally small page sizes are accepted to be better as they minimize fragmentation. Smaller pages also increases the overhead for per-page metadata, which is why the middle ground of 4KB was settled on for Linux. Larger pages are at higher risk of internal fragmentation.

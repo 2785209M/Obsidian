@@ -55,6 +55,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Control-3/Part 1/Proportional Control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proportional Control"
+            }
+          },
+          {
+            "id": "04e21248d7b81dac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Operating-Systems/Memory Management.md",
                 "mode": "source",
                 "source": false
@@ -62,9 +76,65 @@
               "icon": "lucide-file",
               "title": "Memory Management"
             }
+          },
+          {
+            "id": "6b71ecba90caa133",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating-Systems/Page Tables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Page Tables"
+            }
+          },
+          {
+            "id": "b54ec0cd5a6d5263",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networked-Systems/Data Transfer Protocols.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Transfer Protocols"
+            }
+          },
+          {
+            "id": "9b3d06963f812b31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating-Systems/Page Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Page Management"
+            }
+          },
+          {
+            "id": "f090be513095f174",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Doulos Digital Design Course/Addition in Digital Hardware.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Addition in Digital Hardware"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -237,53 +307,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0289705207c3b37c",
+  "active": "9b3d06963f812b31",
   "lastOpenFiles": [
+    "Doulos Digital Design Course/Addition in Digital Hardware.md",
+    "Doulos Digital Design Course/Arithmetic Structures.md",
+    "Doulos Digital Design Course/AMBA AXI Bus Protocol.md",
+    "Doulos Digital Design Course/Defining the real world.md",
+    "Doulos Digital Design Course/Design Practices.md",
+    "Doulos Digital Design Course/Digital Design Technologies.md",
+    "Doulos Digital Design Course/Logic Gates.md",
+    "Control-3/Part 2/Root Locus Diagrams.md",
+    "Networked-Systems/Data Transfer Protocols.md",
+    "Networked-Systems/Naming and the Tussle for Control.md",
+    "Operating-Systems/Page Management.md",
+    "Operating-Systems/Page Tables.md",
+    "Operating-Systems/Advanced Memory Topics.md",
+    "Operating-Systems/Memory Management.md",
+    "Operating-Systems/Processes.md",
+    "Operating-Systems/Process Scheduling.md",
+    "Operating-Systems/Talking with Hardware.md",
+    "Operating-Systems/attachments/image-18.png",
+    "Operating-Systems/attachments/image-17.png",
+    "Operating-Systems/attachments/image-16.png",
+    "Operating-Systems/attachments/image-15.png",
+    "Control-3/Part 1/Root Locus Analysis.md",
+    "Control-3/Part 1/attachments/image.png",
+    "Control-3/Part 1/attachments",
+    "Operating-Systems/attachments/image-14.png",
+    "Control-3/Part 1/Proportional Control.md",
+    "Control-3/Part 1/Routh-Hurwitz Stability Criterion.md",
+    "Control-3/Part 1/Laplace Transforms.md",
+    "Control-3/Part 1/Block Diagrams.md",
+    "Doulos Digital Design Course/Synchronous Design.md",
     "Operating-Systems/attachments/image-13.png",
     "Operating-Systems/attachments/image-12.png",
     "Operating-Systems/attachments/image-11.png",
     "Operating-Systems/attachments/image-10.png",
-    "Operating-Systems/attachments/image-9.png",
-    "Operating-Systems/attachments/image-8.png",
-    "Operating-Systems/attachments/image-7.png",
-    "Operating-Systems/Process Scheduling.md",
-    "Operating-Systems/Memory Management.md",
     "Networked-Systems/Lecture 7 -.md",
-    "Operating-Systems/attachments/image-6.png",
-    "Operating-Systems/attachments/image-5.png",
-    "Operating-Systems/attachments/image-4.png",
     "Doulos Digital Design Course/Introduction to Buses.md",
     "Doulos Digital Design Course/IP Blocks.md",
-    "Doulos Digital Design Course/Finite State Machines.md",
-    "Doulos Digital Design Course/Arithmetic Structures.md",
-    "Doulos Digital Design Course/Common Functions.md",
-    "Doulos Digital Design Course/Defining the real world.md",
-    "Operating-Systems/Processes.md",
-    "Operating-Systems/Talking with Hardware.md",
-    "Operating-Systems/attachments/image-3.png",
     "Operating-Systems/attachments",
-    "Doulos Digital Design Course/Design Practices.md",
     "Operating-Systems",
-    "Doulos Digital Design Course/Addition in Digital Hardware.md",
-    "Doulos Digital Design Course/AMBA AXI Bus Protocol.md",
-    "Doulos Digital Design Course/Digital Design Technologies.md",
-    "Doulos Digital Design Course/Synchronous Design.md",
-    "Doulos Digital Design Course/Logic Gates.md",
-    "Control-3/Part 1/Proportional Control.md",
-    "Control-3/Part 1/Block Diagrams.md",
-    "Networked-Systems/Data Transfer Protocols.md",
-    "PSD/Final Sprint Meeting Preparation.md",
-    "Control-3/Part 2/Root Locus Diagrams.md",
-    "To-Do.md",
-    "Control-3/Part 1/Laplace Transforms.md",
-    "Control-3/Part 1/Routh-Hurwitz Stability Criterion.md",
     "Doulos Digital Design Course/attachments",
     "Doulos Digital Design Course",
     "Control-3/Part 2",
     "Control-3/Part 1",
     "Networked-Systems",
     "General",
-    "Control-3/attachments",
-    "PSD"
+    "Control-3/attachments"
   ]
 }

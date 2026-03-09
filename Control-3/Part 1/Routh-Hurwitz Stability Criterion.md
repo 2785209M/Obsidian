@@ -1,4 +1,4 @@
-[[Laplace Transforms]] [[Root Locus Diagrams]]
+[[Laplace Transforms]] [[Control-3/Part 2/Root Locus Diagrams]]
 the Routh-Hurwitz stability criterion allows you to predict the stability of a system without needing to solve the characteristic equation
 
 Start by building a table with every power of s:
