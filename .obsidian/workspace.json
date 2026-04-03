@@ -4,165 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "12c624c861e2292f",
+        "id": "0cdc3ecbfdc0a55d",
         "type": "tabs",
         "children": [
           {
-            "id": "f89cd1c3aba2ad6a",
+            "id": "32d2437e6e786e7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating-Systems/Talking with Hardware.md",
+                "file": "Systems-Programming/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Talking with Hardware"
+              "title": "Introduction"
             }
           },
           {
-            "id": "8f2277cc69bd454e",
+            "id": "a90e672c380ee067",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating-Systems/Processes.md",
+                "file": "Networked-Systems/Content Distribution and Routing (Finale).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processes"
+              "title": "Content Distribution and Routing (Finale)"
             }
           },
           {
-            "id": "f5398480cfa7d6b9",
+            "id": "50cb15009ebcb9e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating-Systems/Process Scheduling.md",
+                "file": "Networked-Systems/Connection Establishment in a fragmented Network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Process Scheduling"
+              "title": "Connection Establishment in a fragmented Network"
             }
           },
           {
-            "id": "0289705207c3b37c",
+            "id": "cdf6e01058771cc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control-3/Part 1/Proportional Control.md",
+                "file": "Control-3/Part 2/Root Locus Diagrams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proportional Control"
-            }
-          },
-          {
-            "id": "04e21248d7b81dac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating-Systems/Memory Management.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Memory Management"
-            }
-          },
-          {
-            "id": "6b71ecba90caa133",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating-Systems/Page Tables.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Page Tables"
-            }
-          },
-          {
-            "id": "b54ec0cd5a6d5263",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networked-Systems/Data Transfer Protocols.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Transfer Protocols"
-            }
-          },
-          {
-            "id": "9b3d06963f812b31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating-Systems/Page Management.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Page Management"
-            }
-          },
-          {
-            "id": "f090be513095f174",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating-Systems/Assessed Exercise.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Assessed Exercise"
-            }
-          },
-          {
-            "id": "677c9599aca7d79d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating-Systems/Assessed Exercise.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Assessed Exercise"
-            }
-          },
-          {
-            "id": "142262c28a42b8b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating-Systems/Concurrency and Paralellism.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Concurrency and Paralellism"
+              "title": "Root Locus Diagrams"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pragma",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -215,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -336,55 +237,55 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "959a14e51142eb81",
+  "active": "cdf6e01058771cc8",
   "lastOpenFiles": [
-    "Operating-Systems/attachments/image-20.png",
-    "Operating-Systems/Untitled.md",
-    "Operating-Systems/Concurrency and Paralellism.md",
-    "Operating-Systems/attachments/image-19.png",
-    "Operating-Systems/Assessed Exercise.md",
-    "Untitled",
-    "Operating-Systems/Advanced Memory Topics.md",
-    "Operating-Systems/Page Management.md",
-    "Operating-Systems/Page Tables.md",
-    "Operating-Systems/Memory Management.md",
-    "Operating-Systems/Process Scheduling.md",
-    "Operating-Systems/Processes.md",
-    "Networked-Systems/Data Transfer Protocols.md",
-    "Networked-Systems/Naming and the Tussle for Control.md",
+    "Networked-Systems/Secure Communications.md",
+    "Networked-Systems/Connection Establishment in a fragmented Network.md",
+    "Networked-Systems/attachments/image-5.png",
+    "Networked-Systems/attachments/image-4.png",
+    "Networked-Systems/attachments/image-3.png",
+    "Networked-Systems/attachments/image-2.png",
     "Networked-Systems/Content Distribution and Routing (Finale).md",
+    "Networked-Systems/Data Transfer Protocols.md",
+    "Networked-Systems/The changing Internet.md",
+    "Networked-Systems/Naming and the Tussle for Control.md",
+    "Systems-Programming/Basics of C.md",
+    "Systems-Programming/Introduction.md",
+    "Operating-Systems/Talking with Hardware.md",
+    "Operating-Systems/Processes.md",
+    "Operating-Systems/Process Scheduling.md",
+    "Control-3/Part 1/Proportional Control.md",
+    "Operating-Systems/Memory Management.md",
+    "Operating-Systems/Page Tables.md",
+    "Operating-Systems/Page Management.md",
+    "Operating-Systems/Assessed Exercise.md",
+    "Control-3/Part 2/Nyquist Stability Criterion.md",
+    "Operating-Systems/Concurrency and Paralellism.md",
+    "Control-3/Part 1/Root Locus Analysis.md",
+    "Operating-Systems/Input and Output.md",
+    "Operating-Systems/attachments/image-28.png",
+    "Operating-Systems/attachments/image-27.png",
+    "Operating-Systems/attachments/image-26.png",
+    "Operating-Systems/attachments/image-25.png",
+    "Operating-Systems/attachments/image-24.png",
+    "Operating-Systems/attachments/image-23.png",
+    "Networked-Systems/attachments",
+    "Control-3/Part 2/Bode Plots.md",
+    "Systems-Programming",
+    "Control-3/Part 2/attachments",
+    "2026-03-19.md",
+    "Operating-Systems/Advanced Memory Topics.md",
     "Doulos Digital Design Course/Addition in Digital Hardware.md",
     "Untitled.base",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 1.base",
-    "Operating-Systems/Talking with Hardware.md",
     "Doulos Digital Design Course/Arithmetic Structures.md",
     "Doulos Digital Design Course/AMBA AXI Bus Protocol.md",
-    "Doulos Digital Design Course/Defining the real world.md",
-    "Doulos Digital Design Course/Design Practices.md",
-    "Doulos Digital Design Course/Digital Design Technologies.md",
-    "Doulos Digital Design Course/Logic Gates.md",
-    "Control-3/Part 2/Root Locus Diagrams.md",
-    "Operating-Systems/attachments/image-18.png",
-    "Operating-Systems/attachments/image-17.png",
-    "Operating-Systems/attachments/image-16.png",
-    "Operating-Systems/attachments/image-15.png",
-    "Control-3/Part 1/Root Locus Analysis.md",
-    "Control-3/Part 1/attachments/image.png",
     "Control-3/Part 1/attachments",
-    "Operating-Systems/attachments/image-14.png",
-    "Control-3/Part 1/Proportional Control.md",
-    "Control-3/Part 1/Routh-Hurwitz Stability Criterion.md",
-    "Control-3/Part 1/Laplace Transforms.md",
-    "Operating-Systems/attachments/image-13.png",
-    "Operating-Systems/attachments/image-12.png",
-    "Operating-Systems/attachments/image-11.png",
     "Operating-Systems/attachments",
     "Operating-Systems",
     "Doulos Digital Design Course/attachments",
-    "Doulos Digital Design Course",
-    "Control-3/Part 2",
-    "Control-3/Part 1"
+    "Doulos Digital Design Course"
   ]
 }

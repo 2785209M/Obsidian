@@ -8,7 +8,7 @@
 The closed loop zeros are the same as the open loop zeros.
 The closed loop poles are determined by roots of the characteristic equation.
 
-The complex values of s which are **Solutions of the characeristic equation** for varyinf values of **K** form the **Root Locus** of the system.
+The complex values of s which are **Solutions of the characeristic equation** for varying values of **K** form the **Root Locus** of the system.
 $F(s) = 1+KG_o(s) = 0$
 $G_o(s) = -1/K$ 
 $|G_o(s)| = \frac{1}{K}$
