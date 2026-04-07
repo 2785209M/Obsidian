@@ -49,6 +49,8 @@ The characteristic equation is the denominator of the transfer function. Solving
 ![[Pasted image 20260205172052.png]]
 
 Solving the characteristic equation gives you the poles of the transfer function. Poles are the roots of the characteristic equation. The points at which the position of the transform in the frequency domain stretches to infinity.
+
+The characteristic equation can be represented as $1+KG(s)H(s)$
 #### Step Input
 
 The step input is the Laplace transform of the unit step. This is usually $\frac{1}{s}$. However is the unit step is 5, the step input would be $\frac{5}{s}$, etc.
