@@ -1,0 +1,1 @@
+1 and 2 were hard. 3 and 4 were better. Still tripping up.

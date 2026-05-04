@@ -2,7 +2,7 @@
 
 # Properties of a Root Locus Diagram
 
-![[image.png]]
+![[Control-3/Part 1/attachments/image.png]]
 
 **Points worth Noting**:
 The closed loop zeros are the same as the open loop zeros.
@@ -20,7 +20,8 @@ An asymptote is a line that tends towards another line but never reaches is in i
 In root locus analysis you calculate the asymptotes by the following equation:
 $\theta = \frac{180}{n-m} + \frac{K360}{n-m}$ 
 The number of asymptotes you have is the number of poles minus the number of zeros (represented by n-m). The asymptotic lines rotate around the x axis like a clock hand starting at quarter past.
-The asymptotic lines originate from the meeting point of the poles. The meeting point can be calculated using the following equation:
-$X=\frac{\Sigma R(p)-\Sigma R(z)}{n-m}$ (that's the sum of the real parts of the poles minus the sum of the real parts of the zeros over the number of poles minus the number of zeros)
+The asymptotic lines originate from the centroid. The centroid can be calculated using the following equation:
+$X=\frac{\Sigma R(p)-\Sigma R(z)}{n-m}$ 
+(that's the sum of the real parts of the poles minus the sum of the real parts of the zeros over the number of poles minus the number of zeros)
 
 ## Types of Aymptotes

@@ -123,3 +123,38 @@ int socket(int domain, int type, int protocol);
 # Network and host order
 - When sending data, different processors use different in-memory representations
 	- Big Endian and Little Endian
+- The internet gods chose big-endian as the network order
+
+## Conversion
+![[image-37.png]]
+
+
+# Datagram Server - Processing Received Datagrams
+- recvfrom() is used to receive the next datagram that has been sent to it. If addr is not null then the IP address of the sender is filled with it and addrlen is set to the size of the address
+- The return value is a number of bytes written into buf
+- The server will listen on PORT
+
+# Binding a socket to port
+- After creating a socket the server must bind it to a port on its machine to clients can send data to it
+- This is performed using the bind() syscall
+![[image-38.png]]
+
+- Most server clients are connected by multiple networks so INADDR_ANY is defined so that your server program can be connected to by clients on any of those networks
+- Before the call to bind we need to call sockaddr_in, set the values for the address family, ipv4 address and port number
+
+## Shutting down
+- Our server performs and infinite loop, echoing each message received from a client back to the client
+- As such, it will never terminate. You will need to kill the process from the command line
+- If any errors are encountered whilst performing the socket system calls, the program jumps to the label cleanup, at which the listening socket is closed and an error indication is returned to the shell
+
+# Copying is very slow
+The networking stack in the OS has lots of buffer copies to remember memory access times, requires privileged operation as it lives inside the Kernel, and requires user/kernel context switching
+
+# eBPF
+eBPF allows you to execute sandboxed programs in a privileged kernel context, suitable for networking and security tracing.
+It allows user-space applications hook into kernel-local events.
+
+If a hook does not exist it allows users to write programs that run in a virtual machine in the kernel space. These programs must be verified to be safe for execution.
+
+
+

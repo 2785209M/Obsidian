@@ -14,7 +14,7 @@ Nearby CDNs are located using DNS.
 DNS entries in CDN all contain address records which link directly to the CDN edge server.
 
 The closest CDN node can be located using anycast routing. 
-Each resource hosted by the CDN have a unique filename but common hostname.
+Each resource hosted by the CDN has a unique filename but common hostname.
 *Anycast Routing is a method of networking where a common IP address is shared between multiple globally dispersed servers. Border Gateway control is used to find the nearest/best performing server.* 
 
 # Inter-Domain Routing
@@ -93,3 +93,11 @@ Each node then directly calculates shortest path to every other node
 
 Flooding link state data through all nodes ensures all nodes know the entire network topology. This means every node can calculate the shortest path and the shortest path is assumed to be optimal.
 
+# Discuss how the effects of a total DNS Failure would manifest themselves and how quickly they would become visible
+DNS data is widely stored in Caches in locations like CDNS. DNS names have a specific Time To Live (TTL) in these caches, and much DNS traffic is routed through them, so not all DNS lookups would immediately fail. You would, immediately after the failure, not be able to lookup new names that were not stored in the cache, but would still be able to lookup names that were in the cache. As the TTL of each DNS name is used up in the CDNs you would experience an increase in the DNS failure rate over time, until eventually everything stops working.
+
+# Discuss why DNS used to use UDP but switched to using different transport protocols
+UDP was a good choice on a smaller internet because it was fast, required little overhead, and each DNS request and response could fit into a single UDP packet. TCP doesn't offer a benefit in reliability compared to just resending a request if no response is received, and there is not enough network congestion for congestion control to work.
+DNS is moving to alternative transport protocols because:
+With the deployment of DNS security and authenticated DNS responses, DNS request are now too large to fit within a single UDP packet.
+It is desireable in a larger internet to encrypt and authenticate DNS requests and responses, which is easier to do using a transport protocol that supports these features (such as TCP, TLS, QUIC).

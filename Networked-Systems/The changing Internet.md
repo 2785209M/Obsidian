@@ -18,7 +18,10 @@ Propogation delay aims to limit collisions during data transmission. If a collis
 - If a host has multiple network interfaces then it has multiple IP addresses
 - A host can support both ipv4 and ipv6 on each interface
 - A host can have multiple IP addresses of each type assigned to each interface
-- 
+![[image-27.png]]
+
+![[image-28.png]]
+
 ## Autonomos Systems and Inter-Domain Routing
 
 ![[image-1.png]]

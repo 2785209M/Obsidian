@@ -36,6 +36,7 @@ The translation look-aside buffer can store a small number of page table mapping
 1. CPU Generates Logical Address
 2. CPU Checks to see if the address is in the TLB
 3. If yes, returns the physical memory location of the data and doesn't check the page table
+4. If no, performs time-consuming manual search of the page table and adds it to the TLB
 
 ### Memory Protection
 Memory protection can be implemented in a physical memory by using a protection bit, which indicates whether the frame is read-only or read-write.
@@ -74,3 +75,57 @@ On Linux, users can view memory data at the segment level in the directory /proc
 - Page Control Register Decides which base register is used for page table walks.
 - OS Updates PGD at context switch to switch page tables.
 - The cache flushes at context switch
+
+# Multiple Page sizes
+To design a page table with multiple page sizes, you need to use a hierarchical page table. Use the offset to choose the size of your base, lowest level page tables. an offset of 12 would give you 2^12 bytes, or 4KB. If we make each level thereafter span a specific number of bits (e.g. 8), the size of the page table would be multiplied by 2^8 each time you go up a level.
+We have to set a Large Page (LP) bit inside each of the levels of the page table. The Memory management Unit will read this bit when it performs a table walk so it knows where to stop. If we set the LP flag to 1 in the third level the MMU will stop there and all bits thereafter will become the offset. In our example that would be 2^28 or 256MB.
+To facilitate this structure we would either need to use multiple Transition Lookaside Buffers for each level or use a special TLB that is capable of processing multiple page sizes.
+The OS would also need a memory allocator capable of reserving physical memory or the same size as the page table levels.
+
+To determine the number of bits for the page number and the total number of pages, we need to break down the 20-bit address into two components: the **Page Number** and the **Page Offset**.
+### 1. Calculate the Offset Bits
+The page size determines how many bits are required for the offset (the address within a specific page).
+- **Page Size** = 4 KB
+- 4 KB=4×1024 bytes=4096 bytes
+- In powers of 2: 4096=2^12
+Since 2^12 bytes can be addressed within a single page, we need **12 bits** for the offset.
+### 2. Calculate the Page Number Bits
+The total address space is 20 bits. The address is split as follows:
+Total Address Bits=Page Number Bits+Offset Bits
+Substituting the known values:
+20=Page Number Bits+12
+Page Number Bits=20−12=8 bits
+### 3. Calculate the Number of Pages
+The number of pages in the system is determined by the number of possible values the page number bits can represent.
+- **Number of Pages** = 2Page Number Bits
+- Number of Pages=28=256 pages
+**Summary:**
+- **Bits for the page number:** 8 bits
+- **Total number of pages:** 256 pages
+
+# Common Metadata Bits and Their Purposes
+
+### 1. The Present / Valid Bit
+- **Purpose:** Indicates whether the page is currently residing in physical memory (RAM).
+- **Usage:** If this bit is **0**, a "page fault" is triggered when the CPU tries to access it, signaling the OS to fetch the data from the disk. If it is **1**, the translation proceeds normally.    
+### 2. Protection Bits (Read/Write/Execute)
+- **Purpose:** Defines the permissions for the page.
+- **Usage:** These bits prevent unauthorized actions, such as a program trying to write to a "read-only" code segment or executing data in the "stack" (a common security measure against buffer overflow attacks).
+### 3. The Accessed (or Referenced) Bit
+- **Purpose:** Tracks whether the page has been read or written to recently.
+- **Usage:** This is critical for **Page Replacement Algorithms** (like LRU - Least Recently Used). When memory is full and the OS needs to kick a page out, it looks for pages where the Accessed bit is 0, as they haven't been used in a while.
+### 4. The Dirty (or Modified) Bit
+- **Purpose:** Indicates if the data in the page has been changed (written to) since it was loaded from the disk.
+- **Usage:** If the OS needs to swap a page out of RAM, it checks this bit. If it's **1** (dirty), the OS must write the changes back to the disk. If it's **0** (clean), the OS can simply discard the page because the version on the disk is already identical.
+### 5. The User/Supervisor (Privilege) Bit
+- **Purpose:** Restricts access based on the CPU's current privilege level.
+- **Usage:** This ensures that a regular user application cannot access memory belonging to the Operating System kernel, even if that memory is currently "Present."    
+### 6. Caching Controls (PCD/PWT)
+- **Purpose:** Controls how the page interacts with the hardware cache (L1/L2/L3).
+- **Usage:** * **Page-level Cache Disable (PCD):** Prevents the data from being cached at all (essential for memory-mapped I/O devices where data changes outside of CPU control).
+    - **Page-level Write-Through (PWT):** Forces writes to go immediately to main memory rather than staying in the cache.
+## Why Is This Metadata Necessary?
+Without these bits, the CPU would be "blind." It would know _where_ the memory is, but it wouldn't know:
+- **If it's safe to touch** (Protection/Privilege). 
+- **If it's actually there** (Present bit).
+- **How to manage it under pressure** (Accessed/Dirty bits).

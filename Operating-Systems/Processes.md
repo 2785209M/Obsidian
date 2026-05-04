@@ -11,7 +11,7 @@ Programs are typically stored in disk memory whereas processes are stored in RAM
 - Running
 - Waiting
 - Terminated
-![[image-1.png|573]]
+![[Operating-Systems/attachments/image-1.png|573]]
 
 #### Fork()
 The fork call creates a child process from a parent process. they occupy the same virtual address space, with the only difference between them being the return value of the fork call. The fork call from the parent returns the Process Identifier of the child. If there is no child process fork() returns 0, and if a new process cannot be created it returns -1.
@@ -39,7 +39,7 @@ Threads are useful for pipelining.
 #### Context Switching
 A context switch is the action of replacing one executing process with another. This is what happens when you use the exec() call. During a context switch the context of the previous process is saved to the stack, and reloaded upon switching back.
 
-![[image-2.png|389]]
+![[Operating-Systems/attachments/image-2.png|389]]
 
 #### Policies and Mechanisms
 It is important to separate mechanisms and policies in design systems.
@@ -52,6 +52,6 @@ Signals are uni-directional asynchronous notifications.
 Signal processing is event-based.
 Signals can be thought of as Software Interrupts
 
-![[image-3.png|577]]
+![[Operating-Systems/attachments/image-3.png|577]]
 
 

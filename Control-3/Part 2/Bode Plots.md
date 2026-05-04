@@ -14,6 +14,6 @@ That equation can also be used to calculate where a graph with a pole at 0 shoul
 
 ![[image-3.png]]
 
-**Phase Margin**: Phase margin can be found from a bode plot by ascertaining the difference between 180 and the point on the phase asymptote where the magnitude asymptote crosses the x axis.
+**Phase Margin**: Phase margin can be found from a bode plot by ascertaining the difference between -180 and the point on the phase asymptote where the magnitude asymptote crosses the x axis.
 
 **Gain Margin**: Gain margin can be found by ascertaining the difference between the point on the magnitude asymptote where the phase asymptote crosses 180 and zero.

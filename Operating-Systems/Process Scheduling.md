@@ -28,7 +28,7 @@ CPU Bursts are generally faster.
 - RR
 - SJF
 - Highest Priority
-- Earliest Deadling
+- Earliest Deadline
 
 #### Real time Systems
 - Soft real time: offers a no-gaurantee best effort approach. Missed deadlines are undesirable but not disastrous

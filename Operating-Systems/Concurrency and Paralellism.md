@@ -99,6 +99,8 @@ Futexes are lightweight and scalable, and use Semaphore semantics.
 
 ![[image-20.png]]
 
+![[image-48.png|697]]
+
 Adding more cores speeds up parallel code, but does almost nothing to serial code.
 
 
@@ -183,7 +185,7 @@ performance advantages over critical section
 • limited to the update of a single memory
 location, not exclusive, more efficient, assume
 hardware mechanism for making them critical.
-• # pragma omp barrier
+• # pragma omp barrier How many datablocks does this system have?
 • all active threads will stop until all threads
 have arrived at that point. Guarantees those
 calculation finish.
